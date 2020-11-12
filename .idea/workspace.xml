@@ -3,12 +3,39 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="282e914b-e025-4c5a-a308-ff6d106c6304" name="Default Changelist" comment="" />
+    <list default="true" id="282e914b-e025-4c5a-a308-ff6d106c6304" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andy/application/MitchellOA/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andy/application/MitchellOA/VehicleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andy/application/MitchellOA/VehicleControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andy/application/MitchellOA/VehicleControllerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -18,12 +45,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1jrbhK7LtFyQcVOT3Eq6SEDqXXt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -38,15 +67,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.VehicleControllerTest">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,11 +203,26 @@
       <workItem from="1604624805076" duration="89000" />
       <workItem from="1604626256075" duration="26328000" />
       <workItem from="1604665578050" duration="44000" />
+      <workItem from="1604697641234" duration="673000" />
+      <workItem from="1605171535927" duration="568000" />
+      <workItem from="1605219166867" duration="824000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1604565760555">
@@ -207,26 +249,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604565942391" />
-    <state width="1877" height="120" key="GridCell.Tab.0.bottom" timestamp="1604665620930">
+    <state width="1877" height="329" key="GridCell.Tab.0.bottom" timestamp="1605219775679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="311" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1604632942652" />
-    <state width="1877" height="120" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604665620930" />
-    <state width="1877" height="120" key="GridCell.Tab.0.center" timestamp="1604665620930">
+    <state width="1877" height="329" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605219775679" />
+    <state width="1877" height="329" key="GridCell.Tab.0.center" timestamp="1605219775679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="311" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1604632942652" />
-    <state width="1877" height="120" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604665620930" />
-    <state width="1877" height="120" key="GridCell.Tab.0.left" timestamp="1604665620930">
+    <state width="1877" height="329" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605219775679" />
+    <state width="1877" height="329" key="GridCell.Tab.0.left" timestamp="1605219775678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="311" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1604632942652" />
-    <state width="1877" height="120" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604665620930" />
-    <state width="1877" height="120" key="GridCell.Tab.0.right" timestamp="1604665620930">
+    <state width="1877" height="329" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605219775678" />
+    <state width="1877" height="329" key="GridCell.Tab.0.right" timestamp="1605219775679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="311" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1604632942652" />
-    <state width="1877" height="120" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604665620930" />
+    <state width="1877" height="329" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605219775679" />
     <state width="1877" height="303" key="GridCell.Tab.1.bottom" timestamp="1604665286863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -259,16 +301,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="551" y="181" key="new project wizard/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604624891210" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/andy/application/MitchellOA/VehicleControllerTest.java</url>
-          <line>296</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

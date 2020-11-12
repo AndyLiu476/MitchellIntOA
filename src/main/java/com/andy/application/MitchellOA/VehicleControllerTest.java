@@ -234,12 +234,12 @@ public class VehicleControllerTest {
         HttpHeaders headers = new HttpHeaders();
         HttpEntity<Object> entity = new HttpEntity<>(null, headers);
         ResponseEntity<List<Vehicle>> response = restTemplate.exchange(getRootUrl() +
-                        "/vehicles?model=Accord&yearStart=2015&yearEnd=2019&make=Honda",
+                        "/vehicles?model=Model1&yearStart=1951&yearEnd=1999&make=Make1",
                 HttpMethod.GET, entity, new ParameterizedTypeReference<>() {});
         for(int i = 0; i < response.getBody().size(); i++) {
-            Assert.assertEquals(2018, response.getBody().get(i).getYear());
-            Assert.assertEquals("Accord", response.getBody().get(i).getModel());
-            Assert.assertEquals("Honda", response.getBody().get(i).getMake());
+            Assert.assertEquals(1951, response.getBody().get(i).getYear());
+            Assert.assertEquals("Model1", response.getBody().get(i).getModel());
+            Assert.assertEquals("Make1", response.getBody().get(i).getMake());
         }
     }
 
@@ -323,13 +323,13 @@ public class VehicleControllerTest {
         HttpHeaders headers = new HttpHeaders();
         HttpEntity<Object> entity = new HttpEntity<>(null, headers);
         ResponseEntity<List<Vehicle>> response = restTemplate.exchange(getRootUrl() +
-                        "/vehicles?yearStart=2018&yearEnd=2018&model=Odyssey",
+                        "/vehicles?yearStart=1951&yearEnd=1951&model=Model1",
                 HttpMethod.GET, entity, new ParameterizedTypeReference<>() {});
 
         for(int i = 0; i < response.getBody().size(); i++) {
-            Assert.assertEquals(2018, response.getBody().get(i).getYear());
-            Assert.assertEquals("Odyssey", response.getBody().get(i).getModel());
-            Assert.assertEquals("Honda", response.getBody().get(i).getMake());
+            Assert.assertEquals(1951, response.getBody().get(i).getYear());
+            Assert.assertEquals("Model1", response.getBody().get(i).getModel());
+            Assert.assertEquals("Make1", response.getBody().get(i).getMake());
         }
     }
 
@@ -339,12 +339,12 @@ public class VehicleControllerTest {
         HttpHeaders headers = new HttpHeaders();
         HttpEntity<Object> entity = new HttpEntity<>(null, headers);
         ResponseEntity<List<Vehicle>> response = restTemplate.exchange(getRootUrl() +
-                        "/vehicles?model=Sienna&make=Toyota",
+                        "/vehicles?model=Model1&make=Make1",
                 HttpMethod.GET, entity, new ParameterizedTypeReference<>() {});
         for(int i = 0; i < response.getBody().size(); i++) {
-            Assert.assertEquals(2018, response.getBody().get(i).getYear());
-            Assert.assertEquals("Sienna", response.getBody().get(i).getModel());
-            Assert.assertEquals("Toyota", response.getBody().get(i).getMake());
+            Assert.assertEquals(1951, response.getBody().get(i).getYear());
+            Assert.assertEquals("Model1", response.getBody().get(i).getModel());
+            Assert.assertEquals("Make1", response.getBody().get(i).getMake());
         }
     }
 

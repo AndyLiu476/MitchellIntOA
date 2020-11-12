@@ -24,7 +24,6 @@ public class VehicleController {
         this.vehicleRepository = vehicleRepository;
     }
 
-
     /* Get vehicles from repo via one or more vehicle properties */
     @GetMapping("/vehicles")
     public ResponseEntity<List<Vehicle>> getVehicles(
@@ -74,7 +73,6 @@ public class VehicleController {
         return ResponseEntity.status(HttpStatus.ACCEPTED).body(vehicle);
     }
 
-
     /* Add a brand new vehicle to the repo */
     @PostMapping("/vehicles")
     public ResponseEntity createVehicle(@RequestBody Vehicle vehicle) {
@@ -105,10 +103,8 @@ public class VehicleController {
             vehicleRepository.save(vehicle);
         }
 
-
         return ResponseEntity.status(HttpStatus.ACCEPTED).body(vehicle);
     }
-
 
     /* Updates the information of an existing vehicle */
     @PutMapping("/vehicles")
